@@ -38,6 +38,13 @@ android {
             includeAndroidResources = true
         }
     }
+
+    buildTypes {
+        debug {}
+        labs {}
+        beta {}
+        release {}
+    }
 }
 
 dependencies {
