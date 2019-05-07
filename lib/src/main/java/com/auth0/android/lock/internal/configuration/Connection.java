@@ -148,7 +148,7 @@ public class Connection implements BaseConnection, DatabaseConnection, OAuthConn
 
     @Override
     public boolean isActiveFlowEnabled() {
-        return allowActiveFlow && ("ad".equals(getStrategy()) || "adfs".equals(getStrategy()) || "waad".equals(getStrategy()));
+        return false;
     }
 
     void disableActiveFlow() {
