@@ -3,13 +3,13 @@ package com.auth0.android.lock.views;
 import android.content.Context;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.AccessibilityDelegateCompat;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.accessibility.AccessibilityEventCompat;
-import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
-import android.support.v7.widget.AppCompatImageButton;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.core.view.AccessibilityDelegateCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.accessibility.AccessibilityEventCompat;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
+import androidx.appcompat.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
@@ -34,7 +34,7 @@ public class ImageCheckbox extends AppCompatImageButton implements Checkable {
     }
 
     public ImageCheckbox(Context context, AttributeSet attrs) {
-        this(context, attrs, android.support.v7.appcompat.R.attr.imageButtonStyle);
+        this(context, attrs, androidx.appcompat.R.attr.imageButtonStyle);
     }
 
     public ImageCheckbox(Context context, AttributeSet attrs, int defStyleAttr) {

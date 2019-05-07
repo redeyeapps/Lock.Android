@@ -25,7 +25,7 @@
 package com.auth0.android.lock;
 
 import android.content.Intent;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 
 import com.auth0.android.lock.utils.LockException;
 

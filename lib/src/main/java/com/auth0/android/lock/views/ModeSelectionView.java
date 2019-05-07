@@ -26,8 +26,8 @@ package com.auth0.android.lock.views;
 
 import android.content.Context;
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TabLayout;
+import androidx.annotation.NonNull;
+import com.google.android.material.tabs.TabLayout;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;

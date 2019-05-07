@@ -24,9 +24,9 @@
 
 package com.auth0.android.lock.views;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.ViewGroup;
@@ -41,7 +41,7 @@ import com.auth0.android.lock.internal.configuration.OAuthConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.support.v7.widget.RecyclerView.LayoutManager;
+import static androidx.recyclerview.widget.RecyclerView.LayoutManager;
 
 public class SocialView extends LinearLayout implements SocialViewAdapter.OAuthListener {
 

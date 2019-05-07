@@ -24,7 +24,7 @@
 
 package com.auth0.android.lock.errors;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 import android.util.Log;
 
 import com.auth0.android.authentication.AuthenticationException;
