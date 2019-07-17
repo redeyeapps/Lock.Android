@@ -41,7 +41,7 @@ import com.auth0.android.lock.views.interfaces.LockWidgetOAuth;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.support.v7.widget.RecyclerView.LayoutManager;
+import static androidx.recyclerview.widget.RecyclerView.LayoutManager;
 
 public class SocialView extends LinearLayout implements SocialViewAdapter.OAuthListener {
 
