@@ -25,6 +25,7 @@
 package com.auth0.android.lock.internal.configuration;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import androidx.annotation.AttrRes;
 import androidx.annotation.ColorRes;

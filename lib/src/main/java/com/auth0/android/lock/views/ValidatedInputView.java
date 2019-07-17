@@ -41,6 +41,7 @@ import android.text.TextWatcher;
 import android.text.method.PasswordTransformationMethod;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -73,7 +74,7 @@ public class ValidatedInputView extends LinearLayout {
     public static final String USERNAME_REGEX = "^[a-zA-Z0-9_]+$";
     public static final String PHONE_NUMBER_REGEX = "^[0-9]{6,14}$";
     public static final String CODE_REGEX = "^[0-9]{4,12}$";
-    public static final String EMAIL_REGEX = "[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?";
+    public static final String EMAIL_REGEX = "[a-zA-Z0-9-.!#$%&'*+–/=?^_`{|}~]{1,64}@[a-z0-9-.]{1,255}";
     private static final String TAG = ValidatedInputView.class.getSimpleName();
     private static final int VALIDATION_DELAY = 500;
 
